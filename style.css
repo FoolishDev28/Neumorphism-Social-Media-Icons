@@ -1,0 +1,41 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	background: #1c2a44;
+}
+.container{
+	height: 90px;
+	width: 450px;
+	box-shadow: 0px 5px 7px 2px skyblue;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+a{
+	height: 60px;
+	width: 60px;
+	box-shadow: 0px 5px 10px skyblue;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 25px;
+	margin: auto;
+}
+.fa-instagram{
+	color: #ea3145;
+}
+.fa-github{
+	color: #3e68c0;
+}
+.fa-codepen{
+	color: #27ae60;
+}
+a:active{
+	box-shadow: inset 0px 5px 14px 4px red;
+}
